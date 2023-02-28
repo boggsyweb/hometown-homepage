@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.visit {
+    width: 720px;
+    margin: auto;
+    background-color: #404E77;
+    
+    
+}
+.hero {
+    margin: auto;
+    height: 343px;
+    background-image: url("images/Setubal-Town-Hall-Portugal.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;   
+    color: #03312E;
+ 
+    
+}
+.hero h2 {
+    font-size: 35px;
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 15px;
+}
+
+.hero h3 {
+    text-align: left;
+    width: 500px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin: 190px 200px 0 20px;
+
+}
+.top-three {
+    color: floralwhite;
+
+}
+.top-three h3 {
+    padding-top: 15px;
+    font-size: 24px;
+}
+.img-cont {   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+}
+ .top-three img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: .5px solid floralwhite;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+}
+ .top-three img:hover {
+    transform: scale(1.9); 
+    border-radius: 6px;
+}
+.pic-vert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 10px 0 10px;
+    width: 200px;
+}
+.pic-vert p {
+    font-size: 16px;
+    text-align: justify
+}
+.caption {
+    font-weight: bold;
+    font-size: 18px;  
+    padding-top: 10px;  
+}
+.your-guide {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-image: url("images/azulejo.jpg");
+    margin-bottom: 20px;
+    
+}
+.guide-card {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    background-color: #404E77;
+    color: floralwhite;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #404E77;
+    box-shadow: 3px 3px 4px darkslategrey;
+}
+
+#guide-pic {
+     border-radius: 15px;
+    border: 1px #536599 solid;
+    margin: 10px 5px 0 20px; 
+    padding: 10px;
+    width: 1000px;
+    height: 220px;
+    background-image: url("images/beachday.jpg");
+    background-size: cover;
+    transition: .3s;
+     cursor: pointer;
+
+}
+#guide-pic:hover {
+    background-image: url("images/amor.jpg");
+    background-size: cover;
+}
+#guide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+#guide-text h3 {
+    font-size: 22px
+}
+#guide-text p {
+    text-align: justify;
+    font-size: 18px;
+    }
